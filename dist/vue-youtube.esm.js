@@ -90,7 +90,7 @@ var Youtube = {
     playerVars: {
       type: Object,
       default: function () {
-        return { autoplay: 0 }
+        return { autoplay: 0, rel:0 }
       }
     }
   },
